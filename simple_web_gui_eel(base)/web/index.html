@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="eel.js"></script>
+</head>
+<body>
+
+<script>
+    async function call() { // async - можно не писать 
+        await ell.call_in_js("Hello, word!");//await- можно не писать 
+    }
+    call;
+
+    eel.expose(call_in_pyhton); // pyhton функции в js
+    function call_in_pyhton(x) {
+        console.log(x);
+    }
+
+</script>
+
+
+<!-- <script>
+     function call() { 
+         ell.call_in_js("Hello, word!");
+    }
+</script> -->
+
+</body>
+</html>
